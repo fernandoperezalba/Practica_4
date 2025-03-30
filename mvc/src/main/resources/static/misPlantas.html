@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Plantas</title>
+    <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/practica3.css">
+</head>
+<body class="main_content">
+
+<!-- Barra de navegación -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="imagenes/logo.png" alt="" height="40">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">CactusWorld</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cuidaATuCactus.html">Cuida a tu cactus</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="libroDePlantas.html">Libro de Plantas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="reviveTuCactus.html">Revive tu cactus</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="misPlantas.html"><i><b>Mis Plantas</b></i></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Más información</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="reviveTuCactus.html">Revive tu cactus</a></li>
+                        <li><a class="dropdown-item" href="suscribirse.html">Suscribirse</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Contenido principal -->
+<div class="container" style="margin-top: 100px;">
+
+    <h1 class="mainTitle text-center">Mis Plantas</h1>
+
+    <!-- Formulario para agregar una nueva planta -->
+    <h2>Agregar Planta</h2>
+    <form id="addPlantForm" class="mb-4">
+        <div class="mb-3">
+            <input type="text" id="name" class="form-control" placeholder="Nombre de la planta" required>
+        </div>
+        <div class="mb-3">
+            <input type="text" id="description" class="form-control" placeholder="Descripción" required>
+        </div>
+        <button type="submit" class="btn btn-success">Agregar</button>
+    </form>
+
+    <!-- Sección para listar todas las plantas -->
+    <h2>Plantas</h2>
+    <ul id="plantsList" class="list-group mb-4">
+        <!-- Aquí se mostrarán las plantas -->
+    </ul>
+
+    <!-- Formulario para editar una planta (oculto inicialmente) -->
+    <h2>Editar Planta</h2>
+    <form id="editPlantForm" style="display:none;">
+        <div class="mb-3">
+            <input type="text" id="editName" class="form-control" placeholder="Nuevo nombre" required>
+        </div>
+        <div class="mb-3">
+            <input type="text" id="editDescription" class="form-control" placeholder="Nueva descripción" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Actualizar</button>
+    </form>
+</div>
+
+<!-- Enlazamos el archivo JS -->
+<script src="/practica4.js"></script>
+<script src="bootstrap/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

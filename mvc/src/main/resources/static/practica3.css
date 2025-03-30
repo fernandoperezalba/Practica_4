@@ -1,0 +1,117 @@
+*{
+	font-family: "Georgia", Georgia, serif;
+}
+
+.mainTitle{
+	text-align: center;
+	font-size: 40pt;
+	color: #00511b;
+	margin-top: 150px;
+}
+
+.parrafoInicio{
+	text-align: left;
+	font-size: 12pt;
+	margin-right: 100px;
+	margin-left: 100px;
+	text-align: justify;
+	text-justify: inter-word; 
+}
+
+.main_content{
+	background-color: #dfffe3;
+}
+
+#busqueda{
+	width: 1000px;
+}
+
+.container-fluid{
+	background-color: #ffffff;
+}
+
+.btn-outline-secondary:hover{
+	background-color: #537600 !important;
+}
+
+.nav-link{
+	color: #CC0F3A;
+}
+
+.input-group{
+	margin-top: 50px;
+}
+
+.input-group-text{
+	color: white;
+	background-color: #0c6817;
+}
+
+.row2{
+	width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+    white-space: nowrap;
+}
+
+#footer{
+	background-color: #87ee91;
+}
+
+#my_footer{
+	display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    font-size: 12pt;
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-top: 200px;
+}
+
+#login{
+	width: 500px;
+ 	margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+   	margin-top: 40px;
+}
+
+.table{
+	justify-content: center;
+}
+
+.page-link{
+	color: rgb(128, 128, 128);
+}
+
+.page-link:hover{
+	color: white;
+	background-color: #0d5d1c !important;
+}
+
+.video{
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+	text-align: center;
+}
+
+.pages{
+	display: flex;
+	flex-direction: row-reverse;
+	margin-right: 50px;
+}
+
+#output {
+    max-width: 80%;  /* Keeps it within 80% of the page width */
+    max-height: 400px; /* Limits height to 400px */
+    overflow-y: auto;  /* Enables vertical scrolling */
+    overflow-x: hidden; /* Hides horizontal scrolling */
+    padding: 15px;
+    background-color: #dfffe3;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    white-space: normal; /* Ensures text wraps correctly */
+    line-height: 1.6;
+    margin: 20px auto; /* Centers the box */
+}
