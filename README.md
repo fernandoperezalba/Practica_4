@@ -1,5 +1,5 @@
 # PAT__Practica_4
-<!-- Repositorio GitHub:
+Repositorio GitHub:
 
 https://github.com/fernandoperezalba/Practica_4
 
